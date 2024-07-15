@@ -56,6 +56,6 @@
     src: url('/assets/font/Pretendard-Thin.woff') format('woff');
 }
 
-body {
+:root {
     font-family: 'Pretendard';
 }

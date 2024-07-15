@@ -5,6 +5,9 @@ Miento 블로그는 MongoDB, vite, react, tailwind, node를 사용하여 만든 
 
 vite((https://ko.vitejs.dev/))
 tailwind(https://tailwindcss.com/)
+mongoDB(https://cloud.mongodb.com/)
+insomnia(https://app.insomnia.rest/app/authorize)
+
 
 ```bash
 npm create vite@latest
@@ -34,7 +37,8 @@ git push -u origin main
 npm init -y
 npm i express
 npm i nodemon
-npm i mongose
+npm i mongoose
+npm i dotenv
 ```
 nodemon 파일 수정시 서버 재실행 작업 없이 서버를 자동으로 재실행 시켜줍니다.
 mongose mongoDB와 연동시켜주는 라이브러리 입니다.
