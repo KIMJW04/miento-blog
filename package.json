@@ -1,0 +1,20 @@
+{
+  "name": "mern-blog",
+  "version": "1.0.0",
+  "description": "Miento 블로그는 MongoDB, vite, react, tailwind, node를 사용하여 만든 블로그입니다. 풀스택 자바스크립트 애플리케이션 개발을 목적으로 제작하였습니다. 서버사이드와 클라이언트사이드를 모두 자바스크릡트로 작업하였습니다.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^3.1.4"
+  }
+}
